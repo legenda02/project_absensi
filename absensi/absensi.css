@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.profile-placeholder {
+    width: 110px;
+    height: 110px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+header table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+    text-align: left;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+header table td {
+    padding: 4px 0;
+    border: none;
+    vertical-align: top;
+    text-align: left;
+    color: #444;
+    white-space: normal;
+    word-break: break-word;
+}
+
+header table tr:first-child td {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 8px;
+    color: #222;
+}
+
+.status-absensi {
+    margin-bottom: 30px;
+}
+
+.status-absensi h2, .call-to-action h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: left;
+}
+
+.table-scroll-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.75em;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+table thead {
+    display: table-header-group;
+}
+
+table tbody {
+    display: table-row-group; 
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.row-1 {
+    min-width: 60px;
+}
+
+.row-2 {
+    min-width: 180px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+table th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.05em;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
